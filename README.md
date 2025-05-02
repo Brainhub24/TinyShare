@@ -1,1 +1,3 @@
 # TinyShare
+Nothing to see here atm bro, but thank you very much for the really fast first STAR!
+More useful stuff will come soon...
