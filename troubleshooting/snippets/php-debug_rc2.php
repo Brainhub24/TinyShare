@@ -35,6 +35,9 @@ if (version_compare($phpVersion, $minPhpVersion, '>=')) {
 }
 
 // === Required Extensions from apt install ===
+/*
+root@app-srv-dev:/var/www/html/TinyShare# apt install php php-cli php-common php-curl php-mbstring php-xml php-zip php-intl php-bcmath     php-mysqli php-pgsql php-sqlite3 php-redis php-gd php-imagick php-xdebug php-soap php-json php-tokenizer php-fileinfo php-exif php-xdebug php-opcache php-gd php-imagick php-redis
+*/
 $requiredExtensions = [
     'curl'        => 'Used for HTTP requests',
     'mbstring'    => 'Multibyte string handling',
